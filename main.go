@@ -19,7 +19,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-const difficulty = 1
+var difficulty, err = strconv.Atoi(os.Args[1])
 
 type Block struct {
 	Index      int
@@ -40,6 +40,7 @@ type Message struct {
 var mutex = &sync.Mutex{}
 
 func main() {
+	fmt.Println(strconv.Atoi(os.Args[1]))
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal(err)
@@ -181,9 +182,19 @@ func generateBlock(oldBlock Block, BPM int) Block {
 		} else {
 			fmt.Println(calculateHash(newBlock), " work done!")
 			newBlock.Hash = calculateHash(newBlock)
+			duration := time.Since(t).String()
+			f, err := os.OpenFile("./simulation-results", os.O_APPEND|os.O_WRONLY, 0600)
+			check(err)
+			f.WriteString("Duration: " + duration + " " + "Difficulty: " + strconv.Itoa(difficulty) + "\n")
 			break
 		}
 
 	}
 	return newBlock
+}
+
+func check(e error) {
+	if e != nil {
+		panic(e)
+	}
 }
