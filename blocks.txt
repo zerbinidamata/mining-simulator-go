@@ -1,0 +1,89 @@
+{
+  "Index": 1,
+  "Timestamp": "2019-08-10 20:22:59.878807 -0300 -03 m=+4.458708114",
+  "BPM": 60,
+  "Hash": "06c0905b7bab53eeee946493b838c0429aeb82da054bca3be5b90156e63a43eb",
+  "PrevHash": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+  "Difficulty": 1,
+  "Nonce": "5"
+}{
+  "Index": 1,
+  "Timestamp": "2019-08-10 20:23:20.134308 -0300 -03 m=+2.245493374",
+  "BPM": 60,
+  "Hash": "007bd1223677147a6b982126a287393ca77908d078bcd9fbaa2eb8cacdeacf67",
+  "PrevHash": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+  "Difficulty": 1,
+  "Nonce": "f"
+}{
+  "Index": 2,
+  "Timestamp": "2019-08-10 20:23:35.202185 -0300 -03 m=+17.313785465",
+  "BPM": 60,
+  "Hash": "0d6d1cfcad5ef299cb895e4f10ea04263eef7ff99a76579ae2a70bcad312bf26",
+  "PrevHash": "007bd1223677147a6b982126a287393ca77908d078bcd9fbaa2eb8cacdeacf67",
+  "Difficulty": 1,
+  "Nonce": "3"
+}{
+  "Index": 3,
+  "Timestamp": "2019-08-10 20:23:38.234398 -0300 -03 m=+20.346081990",
+  "BPM": 60,
+  "Hash": "0f0e7c053c9556811e88f4fae747ceedf27092fba4f58ddc85f3c3319414565d",
+  "PrevHash": "0d6d1cfcad5ef299cb895e4f10ea04263eef7ff99a76579ae2a70bcad312bf26",
+  "Difficulty": 1,
+  "Nonce": "5"
+}{
+  "Index": 4,
+  "Timestamp": "2019-08-10 20:23:43.278805 -0300 -03 m=+25.390625390",
+  "BPM": 60,
+  "Hash": "0ac0e5d3c256e3ce863f7bc1209cd976ed56741ebb14e68e1ce0784ec04b4b34",
+  "PrevHash": "0f0e7c053c9556811e88f4fae747ceedf27092fba4f58ddc85f3c3319414565d",
+  "Difficulty": 1,
+  "Nonce": "19"
+}{
+  "Index": 5,
+  "Timestamp": "2019-08-10 20:24:08.384591 -0300 -03 m=+50.497092377",
+  "BPM": 60,
+  "Hash": "0908ba1f11e4c0b941bddda6425f09ea0c0cdd8440ba804344c141800c12fa79",
+  "PrevHash": "0ac0e5d3c256e3ce863f7bc1209cd976ed56741ebb14e68e1ce0784ec04b4b34",
+  "Difficulty": 1,
+  "Nonce": "d"
+}{
+  "Index": 1,
+  "Timestamp": "2019-08-10 20:25:28.602978 -0300 -03 m=+1.977333391",
+  "BPM": 60,
+  "Hash": "009f00acfee36bf3bbeff2417254e6632527ef8162231580fb3d3af3d99f25e7",
+  "PrevHash": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+  "Difficulty": 2,
+  "Nonce": "64"
+}{
+  "Index": 2,
+  "Timestamp": "2019-08-10 20:27:08.9324 -0300 -03 m=+102.309465796",
+  "BPM": 60,
+  "Hash": "000ed3192fab670880e102be5904e5d6661cb22a6f0c36a219bd2bb7b89e757f",
+  "PrevHash": "009f00acfee36bf3bbeff2417254e6632527ef8162231580fb3d3af3d99f25e7",
+  "Difficulty": 2,
+  "Nonce": "31"
+}{
+  "Index": 3,
+  "Timestamp": "2019-08-10 20:27:58.111977 -0300 -03 m=+151.490371445",
+  "BPM": 60,
+  "Hash": "005c585c8d41fd4182ff3ec1063b18d24964ea20eca7bc111bc65944b11867d3",
+  "PrevHash": "000ed3192fab670880e102be5904e5d6661cb22a6f0c36a219bd2bb7b89e757f",
+  "Difficulty": 2,
+  "Nonce": "11e"
+}{
+  "Index": 4,
+  "Timestamp": "2019-08-10 20:32:45.759409 -0300 -03 m=+439.145573675",
+  "BPM": 60,
+  "Hash": "000dceac7312142cf97576f98b9b683d4000ac87811128a8897a74005c5edfd9",
+  "PrevHash": "005c585c8d41fd4182ff3ec1063b18d24964ea20eca7bc111bc65944b11867d3",
+  "Difficulty": 2,
+  "Nonce": "151"
+}{
+  "Index": 5,
+  "Timestamp": "2019-08-10 20:38:24.876573 -0300 -03 m=+778.271898170",
+  "BPM": 60,
+  "Hash": "006a9a4fb1386c794530249c16e18dcf559ed9eb396f775d8b03082040e0cf11",
+  "PrevHash": "000dceac7312142cf97576f98b9b683d4000ac87811128a8897a74005c5edfd9",
+  "Difficulty": 2,
+  "Nonce": "5c"
+}

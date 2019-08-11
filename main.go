@@ -40,7 +40,6 @@ type Message struct {
 var mutex = &sync.Mutex{}
 
 func main() {
-	fmt.Println(strconv.Atoi(os.Args[1]))
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal(err)
@@ -105,6 +104,9 @@ func respondWithJSON(w http.ResponseWriter, r *http.Request, code int, payload i
 	}
 	w.WriteHeader(code)
 	w.Write(response)
+	file, err := os.OpenFile("./blocks.txt", os.O_APPEND|os.O_WRONLY, 0600)
+	file.Write(response)
+
 }
 
 func handleWriteBlock(w http.ResponseWriter, r *http.Request) {
@@ -183,7 +185,7 @@ func generateBlock(oldBlock Block, BPM int) Block {
 			fmt.Println(calculateHash(newBlock), " work done!")
 			newBlock.Hash = calculateHash(newBlock)
 			duration := time.Since(t).String()
-			f, err := os.OpenFile("./simulation-results", os.O_APPEND|os.O_WRONLY, 0600)
+			f, err := os.OpenFile("./durations.txt", os.O_APPEND|os.O_WRONLY, 0600)
 			check(err)
 			f.WriteString("Duration: " + duration + " " + "Difficulty: " + strconv.Itoa(difficulty) + "\n")
 			break
